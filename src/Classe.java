@@ -21,3 +21,15 @@ public class Classe {
         for (Etudiant e : etudiants) somme += e.calculerMoyenne();
         return somme / etudiants.size();
     }
+      public Etudiant getMajor() {
+        if (etudiants.isEmpty()) return null;
+        Etudiant major = etudiants.get(0);
+        for (Etudiant e : etudiants)
+            if (e.calculerMoyenne() > major.calculerMoyenne())
+                major = e;
+        return major;
+    }
+
+    public String getNom()               { return nom; }
+    public List<Etudiant> getEtudiants() { return etudiants; }
+}
