@@ -17,7 +17,7 @@ public class Bulletin {
             System.out.println("Note " + i + " : " + note + " / 20");
             i++;
         }
-
+        
         System.out.printf("Moyenne  : %.2f / 20%n",
             etudiant.calculerMoyenne());
         System.out.println("Mention  : " + etudiant.getMention());
