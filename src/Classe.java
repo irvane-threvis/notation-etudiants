@@ -9,7 +9,7 @@ public class Classe {
         this.nom = nom;
         this.etudiants = new ArrayList<>();
     }
-}
+
   public void ajouterEtudiant(Etudiant e) {
         if (e == null)
             throw new IllegalArgumentException("Etudiant invalide.");
