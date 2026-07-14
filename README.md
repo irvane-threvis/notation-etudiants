@@ -1,9 +1,9 @@
 # notation-etudiants
- menbres(groupe 12):
- Tougouma  IrvaneThrevis
-	Ouangare lionel
-	Kabore Alain
-	Ouedraogo Edson
+## menbres(groupe 12):
+ ### Tougouma  Irvane Threvis
+### Ouangare lionel
+### Kabore Alain
+### Ouedraogo Edson
 
 ## Structure
 - Etudiant.java      gestion des notes par etudiant
